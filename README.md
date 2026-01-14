@@ -1,4 +1,4 @@
-# Hotel Booking (React + Vite)
+# Teccho Hotel Booking (React + Vite)
 
 A simple hotel booking frontend built with React and Vite. This repository contains a client app that includes pages for listing rooms, viewing details, user bookings, and a hotel owner dashboard.
 
@@ -14,7 +14,7 @@ A simple hotel booking frontend built with React and Vite. This repository conta
 1. Open a terminal and go to the client folder:
 
 ```bash
-cd client
+cd teccho-client
 ```
 
 2. Install dependencies:
@@ -26,10 +26,10 @@ npm install
 # pnpm install
 ```
 
-3. Create a `.env` (or `.env.local`) file in `client/` with your Clerk publishable key:
+3. Create a `.env` (or `.env.local`) file in `teccho-client/` with your Clerk publishable key:
 
 ```env
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_...
+VITE_CLERK_PUBLISHABLE_KEY=...
 ```
 
 4. Run the dev server:
@@ -49,9 +49,9 @@ npm run preview
 
 **Project Structure**
 
-The important files and folders (workspace root contains `client/`):
+The important files and folders (workspace root contains `teccho-client/`):
 
-client/
+teccho-client/
 - eslint.config.js
 - index.html
 - package.json
@@ -96,7 +96,7 @@ client/
 - Routing is handled with `react-router-dom`. Hotel owner pages are nested under `/owner`.
 - Styling uses Tailwind (see `index.css`).
 
-**Useful scripts (from `client/package.json`)**
+**Useful scripts (from `teccho-client/package.json`)**
 
 - `npm run dev` — start Vite dev server
 - `npm run build` — build production bundle
